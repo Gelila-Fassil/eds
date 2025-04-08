@@ -373,7 +373,29 @@ const Card = () => {
         </h1>
       </section>
       {/* section eight */}
-      <section></section>
+      <section className="bg-gradient-to-t from-[#11255A] to-[#184782] text-white">
+        <div className="flex justify-center mt-20 pt-5">
+          <h1 className="text-[16px] font-bold flex gap-5 text-center">
+            <span className="">
+              <Image src="/icon-3.png" width={71} height={18} />
+            </span>{" "}
+            Join the Movement
+          </h1>
+        </div>
+        <h2 className="text-[32px] font-medium text-center py-8">
+          Join a Global Network of Ethiopian Changemakers
+        </h2>
+        <p className="text-[18px] font-semibold text-center w-[40%] m-auto leading-5">
+          Over 3 million Ethiopians across more than 80 countries are shaping
+          Ethiopia’s future. Be part of this transformative journey.
+        </p>
+        <div>
+          <div>
+            <Image src="/map.webp" width={900} height={424}/>
+          </div>
+          <div></div>
+        </div>
+      </section>
       {/* section nine */}
       <section className="w-[85%] m-auto mt-20">
         <div className="pb-16 ">
@@ -574,8 +596,6 @@ const Card = () => {
         </div>
       </section>
 
-     
-
       <section className=" pt-24 ">
         <div className="w-[85%] m-auto">
           <h1 className="text-[16px] font-bold text-[#184782] ">News</h1>
@@ -684,8 +704,6 @@ const Card = () => {
             </div>
           </div>
         </div>
-
-       
       </section>
     </main>
   );
