@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+:root {
+  --primary-color: #1384B7; 
+  --secondary-color: #1E407B; 
+  --white-color: #FFFFFF; 
+  --background-color: #F7F7F7;
+  --text-color: #474747; 
+}
+
+
+/* Apply Custom Colors to Tailwind's Default Theme (Optional) */
+@layer base {
+  body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+  }
+}
